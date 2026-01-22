@@ -44,7 +44,7 @@ const CVSection = () => {
 
           {/* Download Button */}
           <motion.a
-            href="/Ashrakat-Sami-CV.pdf"
+            href="/Ashrakat Sami_CV.pdf"
             download
             initial={{ opacity: 0, y: 20 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
