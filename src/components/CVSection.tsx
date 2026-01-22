@@ -43,19 +43,20 @@ const CVSection = () => {
           </p>
 
           {/* Download Button */}
-          <motion.a
-            href="/Ashrakat Sami_CV.pdf"
-            download
-            initial={{ opacity: 0, y: 20 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.5, delay: 0.2 }}
-            className="btn-primary inline-flex"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <Download size={20} />
-            {t('cv.downloadButton')}
-          </motion.a>
+         <motion.a
+  href="/Ashrakat_Sami_CV.pdf"
+  download="Ashrakat_Sami_CV.pdf"
+  initial={{ opacity: 0, y: 20 }}
+  animate={inView ? { opacity: 1, y: 0 } : {}}
+  transition={{ duration: 0.5, delay: 0.2 }}
+  className="btn-primary inline-flex"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+>
+  <Download size={20} />
+  {t('cv.downloadButton')}
+</motion.a>
+
 
         </motion.div>
       </div>
