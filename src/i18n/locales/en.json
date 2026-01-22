@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "cv": "CV",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Ashrakat Sami",
+    "title": "Backend Developer",
+    "subtitle": "I build robust, scalable backend systems with clean architecture. My focus is on writing maintainable code that solves real problems and stands the test of time.",
+    "downloadCV": "Download CV",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Backend developer with a passion for building reliable systems",
+    "p1": "I specialize in backend development using the .NET ecosystem. My approach centers on understanding problems deeply before writing code—because the best solutions come from clear thinking, not just technical skills.",
+    "p2": "I work with C#, ASP.NET Core, and SQL Server to build APIs and services that handle real-world complexity. Whether it's designing database schemas, implementing secure authentication, or optimizing query performance, I focus on getting the fundamentals right.",
+    "p3": "What drives me is the challenge of building systems that work reliably under pressure. I care about code quality, proper error handling, and creating solutions that other developers can understand and maintain.",
+    "stats": {
+      "experience": "Experience",
+      "projects": "Projects Built",
+      "focus": "Backend Focus"
+    }
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "subtitle": "Technologies and concepts I work with",
+    "categories": {
+      "backend": "Backend Development",
+      "database": "Databases",
+      "concepts": "Core Concepts",
+      "frontend": "Frontend Basics"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Selected work showcasing problem-solving and technical decisions",
+    "viewCode": "View Code",
+    "liveDemo": "Live Demo",
+    "items": {
+      "ecommerce": {
+        "title": "E-Commerce Platform API",
+        "problem": "Building a scalable backend for an online store that handles product catalog, user authentication, cart management, and order processing.",
+        "solution": "Designed a layered architecture with ASP.NET Core Web API. Implemented JWT authentication, repository pattern for data access, and proper transaction handling for order processing.",
+        "highlight": "Focused on separation of concerns and proper error handling. Used Entity Framework Core with optimized queries to prevent N+1 problems."
+      },
+      "inventory": {
+        "title": "Inventory Management System",
+        "problem": "A warehouse needed real-time stock tracking with alerts for low inventory and support for multiple warehouse locations.",
+        "solution": "Built a Web API with SQL Server backend. Implemented stored procedures for complex stock calculations and background services for inventory alerts.",
+        "highlight": "Designed the database schema to handle concurrent updates safely using proper isolation levels and optimistic concurrency."
+      },
+      "taskmanager": {
+        "title": "Task Management API",
+        "problem": "Creating a collaborative task management system with role-based permissions, task assignments, and deadline tracking.",
+        "solution": "Developed with ASP.NET Core using Clean Architecture. Implemented role-based authorization, task workflows, and email notifications for deadlines.",
+        "highlight": "Applied SOLID principles throughout. Used MediatR for CQRS pattern to separate read and write operations cleanly."
+      }
+    }
+  },
+  "cv": {
+    "title": "Resume",
+    "subtitle": "Download my complete resume to learn more about my experience and qualifications",
+    "downloadButton": "Download CV (PDF)",
+    "note": "Last updated: 2024"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind or want to discuss opportunities? I'd love to hear from you.",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "error": "Something went wrong. Please try again or contact me directly."
+    },
+    "or": "Or reach me directly",
+    "whatsapp": "WhatsApp",
+    "email": "Email"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "builtWith": "Built with passion for clean code"
+  }
+}

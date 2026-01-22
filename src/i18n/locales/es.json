@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre Mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "cv": "CV",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "name": "Ashrakat Sami",
+    "title": "Desarrolladora Backend",
+    "subtitle": "Construyo sistemas backend robustos y escalables con arquitectura limpia. Mi enfoque está en escribir código mantenible que resuelve problemas reales y resiste el paso del tiempo.",
+    "downloadCV": "Descargar CV",
+    "contactMe": "Contáctame"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "subtitle": "Desarrolladora backend apasionada por construir sistemas confiables",
+    "p1": "Me especializo en desarrollo backend usando el ecosistema .NET. Mi enfoque se centra en comprender los problemas profundamente antes de escribir código, porque las mejores soluciones vienen del pensamiento claro, no solo de las habilidades técnicas.",
+    "p2": "Trabajo con C#, ASP.NET Core y SQL Server para construir APIs y servicios que manejan la complejidad del mundo real. Ya sea diseñando esquemas de bases de datos, implementando autenticación segura u optimizando el rendimiento de consultas, me concentro en hacer bien los fundamentos.",
+    "p3": "Lo que me impulsa es el desafío de construir sistemas que funcionan de manera confiable bajo presión. Me preocupo por la calidad del código, el manejo adecuado de errores y crear soluciones que otros desarrolladores puedan entender y mantener.",
+    "stats": {
+      "experience": "Experiencia",
+      "projects": "Proyectos Construidos",
+      "focus": "Enfoque Backend"
+    }
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "subtitle": "Tecnologías y conceptos con los que trabajo",
+    "categories": {
+      "backend": "Desarrollo Backend",
+      "database": "Bases de Datos",
+      "concepts": "Conceptos Fundamentales",
+      "frontend": "Fundamentos Frontend"
+    }
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Trabajos seleccionados que muestran resolución de problemas y decisiones técnicas",
+    "viewCode": "Ver Código",
+    "liveDemo": "Demo en Vivo",
+    "items": {
+      "ecommerce": {
+        "title": "API de Plataforma E-Commerce",
+        "problem": "Construir un backend escalable para una tienda en línea que maneje catálogo de productos, autenticación de usuarios, gestión de carrito y procesamiento de pedidos.",
+        "solution": "Diseñé una arquitectura en capas con ASP.NET Core Web API. Implementé autenticación JWT, patrón repositorio para acceso a datos y manejo adecuado de transacciones para procesamiento de pedidos.",
+        "highlight": "Me enfoqué en separación de responsabilidades y manejo adecuado de errores. Usé Entity Framework Core con consultas optimizadas para prevenir problemas N+1."
+      },
+      "inventory": {
+        "title": "Sistema de Gestión de Inventario",
+        "problem": "Un almacén necesitaba seguimiento de stock en tiempo real con alertas para inventario bajo y soporte para múltiples ubicaciones.",
+        "solution": "Construí una Web API con backend SQL Server. Implementé procedimientos almacenados para cálculos complejos de stock y servicios en segundo plano para alertas de inventario.",
+        "highlight": "Diseñé el esquema de base de datos para manejar actualizaciones concurrentes de forma segura usando niveles de aislamiento apropiados y concurrencia optimista."
+      },
+      "taskmanager": {
+        "title": "API de Gestión de Tareas",
+        "problem": "Crear un sistema colaborativo de gestión de tareas con permisos basados en roles, asignación de tareas y seguimiento de fechas límite.",
+        "solution": "Desarrollé con ASP.NET Core usando Clean Architecture. Implementé autorización basada en roles, flujos de trabajo de tareas y notificaciones por correo para fechas límite.",
+        "highlight": "Apliqué principios SOLID en todo el proyecto. Usé MediatR para el patrón CQRS para separar limpiamente las operaciones de lectura y escritura."
+      }
+    }
+  },
+  "cv": {
+    "title": "Currículum",
+    "subtitle": "Descarga mi currículum completo para conocer más sobre mi experiencia y calificaciones",
+    "downloadButton": "Descargar CV (PDF)",
+    "note": "Última actualización: 2024"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "¿Tienes un proyecto en mente o quieres discutir oportunidades? Me encantaría saber de ti.",
+    "form": {
+      "name": "Tu Nombre",
+      "email": "Tu Correo",
+      "message": "Tu Mensaje",
+      "send": "Enviar Mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado exitosamente! Te responderé pronto.",
+      "error": "Algo salió mal. Por favor intenta de nuevo o contáctame directamente."
+    },
+    "or": "O contáctame directamente",
+    "whatsapp": "WhatsApp",
+    "email": "Correo"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "builtWith": "Construido con pasión por el código limpio"
+  }
+}
