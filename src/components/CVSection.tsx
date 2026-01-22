@@ -57,15 +57,6 @@ const CVSection = () => {
             {t('cv.downloadButton')}
           </motion.a>
 
-          {/* Note */}
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={inView ? { opacity: 1 } : {}}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-muted-foreground/60 text-sm mt-6"
-          >
-            {t('cv.note')}
-          </motion.p>
         </motion.div>
       </div>
     </section>
