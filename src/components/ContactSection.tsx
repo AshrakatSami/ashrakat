@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { Send, MessageCircle, Mail, CheckCircle, XCircle, Loader2 } from 'lucide-react';
+import { Send, MessageCircle, Mail, CheckCircle, XCircle, Loader2, Linkedin } from 'lucide-react';
 import { z } from 'zod';
 
 const contactSchema = z.object({
@@ -28,6 +28,7 @@ const ContactSection = () => {
 
   const WHATSAPP_NUMBER = '201110352997';
   const EMAIL = 'ashrakat002@gmail.com';
+  const LINKEDIN_URL = 'https://www.linkedin.com/in/ashrakat-sami';
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
@@ -243,7 +244,7 @@ const ContactSection = () => {
                 <a
                   href={`mailto:${EMAIL}`}
                   className="flex items-center gap-4 p-4 rounded-lg bg-secondary/50 hover:bg-secondary 
-                             border border-border hover:border-primary/50 transition-all duration-300 group"
+                             border border-border hover:border-primary/50 transition-all duration-300 mb-4 group"
                 >
                   <div className="p-3 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
                     <Mail className="w-6 h-6 text-primary" />
@@ -251,6 +252,23 @@ const ContactSection = () => {
                   <div>
                     <div className="font-medium text-foreground">{t('contact.email')}</div>
                     <div className="text-sm text-muted-foreground font-mono">{EMAIL}</div>
+                  </div>
+                </a>
+
+                {/* LinkedIn */}
+                <a
+                  href={LINKEDIN_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 p-4 rounded-lg bg-secondary/50 hover:bg-secondary 
+                             border border-border hover:border-blue-500/50 transition-all duration-300 group"
+                >
+                  <div className="p-3 rounded-lg bg-blue-500/10 group-hover:bg-blue-500/20 transition-colors">
+                    <Linkedin className="w-6 h-6 text-blue-500" />
+                  </div>
+                  <div>
+                    <div className="font-medium text-foreground">{t('contact.linkedin')}</div>
+                    <div className="text-sm text-muted-foreground">Ashrakat Sami</div>
                   </div>
                 </a>
               </div>
